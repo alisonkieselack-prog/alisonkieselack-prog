@@ -28,22 +28,16 @@ WHITE = "#F8F5EA"
 # Fonts
 # --------------------------------------------------
 
-def get_font(size, bold=False):
-    paths = [
-        "assets/fonts/PixelifySans.ttf"
-        if bold else
-        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
-    ]
+PIXEL_FONT = "assets/fonts/PixelifySans.ttf"
+REGULAR_FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
-    for path in paths:
-        if os.path.exists(path):
-            return ImageFont.truetype(path, size)
+if not os.path.exists(PIXEL_FONT):
+    raise FileNotFoundError(
+        f"Pixelify Sans font not found: {PIXEL_FONT}"
+    )
 
-    return ImageFont.load_default()
-
-
-title_font = get_font(43, bold=True)
-subtitle_font = get_font(19)
+title_font = ImageFont.truetype(PIXEL_FONT, 48)
+subtitle_font = ImageFont.truetype(REGULAR_FONT, 19)
 
 NAME = "alison kieselack"
 SUBTITLE = "GATHER · BUILD · GROW"
