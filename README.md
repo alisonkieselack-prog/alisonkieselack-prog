@@ -1,16 +1,17 @@
-## Hi there 👋
 
-<!--
-**alisonkieselack-prog/alisonkieselack-prog** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
 
-Here are some ideas to get you started:
+<img src="assets/name-banner.gif" width="100%" alt="Profile banner">
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
+
+## About
+
+I'm a software and cloud engineer with a background in mathematics, analytics engineering and product data science.
+
+## Tech Stack
+
+- **Languages:** Python, SQL, R
+- **Cloud:** AWS, Docker, Terraform
+- **Data:** PostgreSQL, BigQuery, dbt
+- **Tools:** Git, GitHub Actions, Jenkins, CI/CD
