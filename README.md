@@ -19,10 +19,10 @@ I'm a software and cloud engineer with a background in mathematics, analytics en
 
 ## Projects
 
-| Name  | Type | Description | Link |
-| --- | --- | --- |
-| SupernovaBnB  | Group | Full stack AirBnb-style website featuring space listings, booking flow, user authentication & account area | [Repo](https://github.com/alisonkieselack-prog/supernova_bnb) |
-| Little Life  | Personal | Cute Tamagotchi style pet you can feed and play with - just for fun | `in progress` |
+| Name | Type | Description | Link |
+| --- | --- | --- | --- |
+| SupernovaBnB | Group | Full-stack Airbnb-style website featuring space listings, booking flow, user authentication and account area | [Repo](https://github.com/alisonkieselack-prog/supernova_bnb) |
+| Little Life | Personal | Cute Tamagotchi-style pet you can feed and play with — just for fun | `In progress` |
 
 ## Tech Stack
 
