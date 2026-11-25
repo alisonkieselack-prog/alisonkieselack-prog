@@ -30,7 +30,7 @@ WHITE = "#F8F5EA"
 
 def get_font(size, bold=False):
     paths = [
-        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+        "assets/fonts/PixelifySans.ttf"
         if bold else
         "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
     ]
@@ -45,8 +45,8 @@ def get_font(size, bold=False):
 title_font = get_font(43, bold=True)
 subtitle_font = get_font(19)
 
-NAME = "ALISON KIESELACK"
-SUBTITLE = "PYTHON · SQL · AWS"
+NAME = "alison kieselack"
+SUBTITLE = "GATHER · BUILD · GROW"
 
 # --------------------------------------------------
 # Drawing helpers
