@@ -1,9 +1,17 @@
 
-<div align="center">
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="assets/name-banner-night.gif">
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="assets/name-banner-day.gif">
+  <img
+    src="assets/name-banner-day.gif"
+    width="100%"
+    alt="Alison Kieselack - Gather, Build, Grow">
+</picture>
 
-<img src="assets/name-banner.gif" width="100%" alt="Profile banner">
-
-</div>
 
 ## About
 

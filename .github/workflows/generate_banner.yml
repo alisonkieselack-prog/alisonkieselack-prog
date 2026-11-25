@@ -34,12 +34,12 @@ jobs:
       - name: Generate banner
         run: python generate.py
 
-      - name: Commit updated banner
+      - name: Commit updated banners
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/name-banner.gif
+          git add assets/name-banner-day.gif assets/name-banner-night.gif
           git diff --cached --quiet || (
-            git commit -m "Update profile banner" &&
+            git commit -m "Update profile banners" &&
             git push
           )
