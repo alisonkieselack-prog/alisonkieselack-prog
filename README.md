@@ -17,6 +17,13 @@
 
 I'm a software and cloud engineer with a background in mathematics, analytics engineering and product data science.
 
+## Projects
+
+| Name | Type | Description | Link |
+| --- | --- | --- | --- |
+| SupernovaBnB | Group | Full-stack Airbnb-style website featuring space listings, booking flow, user authentication and account area | [Repo](https://github.com/alisonkieselack-prog/supernova_bnb) |
+| Little Life | Personal | Cute Tamagotchi-style pet you can feed and play with — just for fun | `In progress` |
+
 ## Tech Stack
 
 - **Languages:** Python, SQL, R
