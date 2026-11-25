@@ -7,6 +7,7 @@ on:
       - main
     paths:
       - 'generate.py'
+      - 'assets/fonts/**'
       - '.github/workflows/generate-banner.yml'
   workflow_dispatch:
   schedule:
@@ -24,15 +25,22 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.x'
 
       - name: Install dependencies
         run: pip install pillow
 
-      - name: Generate banner
+      - name: Generate banners
         run: python generate.py
+
+      - name: Verify generated banners
+        run: |
+          echo "Checking generated images..."
+          ls -lh assets/*.gif
+          test -f assets/name-banner-day.gif
+          test -f assets/name-banner-night.gif
 
       - name: Commit updated banners
         run: |
